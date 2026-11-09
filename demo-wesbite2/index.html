@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f9fc">
+  <title>Demo website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="DEMO, naar de startpagina">DEMO</a>
+    <button class="menu-toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Hoofdnavigatie">
+      <a href="#oplossingen">Oplossingen</a>
+      <a href="#werkwijze">Werkwijze</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="#contact">Plan een kennismaking <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Digitaal, maar dan menselijk</p>
+        <h1>Jouw volgende stap begint <span>hier.</span></h1>
+        <p class="intro">Slimme digitale oplossingen die ingewikkelde dingen eenvoudig maken. Helder in gebruik, sterk in resultaat.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#oplossingen">Bekijk oplossingen <span aria-hidden="true">→</span></a>
+          <a class="button button-quiet" href="#werkwijze"><span class="play-icon">▶</span> Zo werken we</a>
+        </div>
+        <div class="proof"><div class="proof-icons"><span>+</span><span>↗</span><span>◎</span></div><p>Samen maken we complex<br>weer overzichtelijk.</p></div>
+      </div>
+      <div class="dashboard" role="img" aria-label="Abstracte illustratie van een digitaal dashboard">
+        <div class="dashboard-top"><span class="window-dots"><i></i><i></i><i></i></span><span class="dashboard-label">OVERZICHT</span><span class="dashboard-menu">•••</span></div>
+        <div class="dashboard-body">
+          <div class="dash-greeting"><span>Goedemorgen</span><b>Alles op koers.</b></div>
+          <div class="dash-graph">
+            <div class="graph-header"><span>Groei in beeld</span><strong>+28,4% <i>↗</i></strong></div>
+            <div class="graph-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="graph-months"><span>JAN</span><span>APR</span><span>JUL</span><span>OKT</span></div>
+          </div>
+          <div class="dash-bottom"><div><span class="mini-icon">◉</span><span>Projectstatus</span><b>Op schema</b></div><div><span class="mini-icon purple">✦</span><span>Volgende stap</span><b>Ideeën uitwerken</b></div></div>
+        </div>
+        <div class="float-card"><span class="float-check">✓</span><span><b>Goed bezig!</b><small>Je project is bijgewerkt</small></span><span class="float-arrow">↗</span></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      </div>
+      <div class="hero-bottom"><span>Strategie</span><i></i><span>Design</span><i></i><span>Technologie</span><span class="bottom-scroll">SCROLL ↓</span></div>
+    </section>
+
+    <section class="solutions" id="oplossingen">
+      <div class="section-intro">
+        <p class="eyebrow">Waar kunnen we je mee helpen?</p>
+        <h2>Digitale ideeën,<br><span>slim gerealiseerd.</span></h2>
+      </div>
+      <div class="solution-list">
+        <a class="solution-item" href="#contact"><span class="solution-index">01</span><span class="solution-title">Web & platform</span><span class="solution-desc">Een digitale plek die precies doet wat je nodig hebt.</span><span class="solution-arrow">↗</span></a>
+        <a class="solution-item" href="#contact"><span class="solution-index">02</span><span class="solution-title">Digitale strategie</span><span class="solution-desc">Van heldere koers naar een concreet plan.</span><span class="solution-arrow">↗</span></a>
+        <a class="solution-item" href="#contact"><span class="solution-index">03</span><span class="solution-title">Ervaring & design</span><span class="solution-desc">Gebruiksgemak dat logisch voelt en goed werkt.</span><span class="solution-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="approach" id="werkwijze">
+      <div class="approach-copy"><p class="eyebrow">Een helder proces</p><h2>Kleine stappen.<br><span>Groot verschil.</span></h2><p>Geen ingewikkeld jargon of onnodige omwegen. We werken samen, delen inzichten en bouwen stap voor stap aan iets dat bij je past.</p><a class="text-link" href="#contact">Meer over onze werkwijze <span>↗</span></a></div>
+      <div class="steps"><div class="step"><span>01</span><div><b>Luisteren</b><p>Eerst begrijpen wat er echt nodig is.</p></div><i>⌕</i></div><div class="step"><span>02</span><div><b>Richting geven</b><p>De juiste ideeën kiezen en aanscherpen.</p></div><i>↗</i></div><div class="step"><span>03</span><div><b>Samen maken</b><p>Van plan naar een oplossing die werkt.</p></div><i>✳</i></div></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div><p class="eyebrow">Klaar voor de eerste stap?</p><h2>Goed idee.<br><span>Laten we beginnen.</span></h2></div><a class="button button-primary" href="mailto:hallo@example.com">Plan een kennismaking <span>↗</span></a><div class="contact-orb"></div></section>
+  </main>
+  <footer class="site-footer"><a class="logo" href="#home">DEMO</a><span>Digitale ideeën, slim gerealiseerd.</span><span>© <span data-year></span></span></footer>
+</body>
+</html>
